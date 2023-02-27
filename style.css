@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #01011C;
+}
+.armament {
+    font-size: 0;
+}
+.card {
+    display: inline-block;
+    background: #01012A;
+    width: calc(100% / 3 - 50px);
+    /* свойсто для того что бы убрат отступы */
+    font-size: 0;
+    margin: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.text {
+    display: inline-block;
+    /* background: red; */
+    width: 50%;
+    height: 100%;
+}
+.text h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+.text p {
+    color: #4CB493;
+    text-align: center;
+    font-size: 16px;
+    height: 240px;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
+.img{
+    width: 50%;
+    height: 285px;
+    object-fit: contain;
+    background-size: cover;
+}
